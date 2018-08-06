@@ -18,9 +18,8 @@ TSV, CSV, fixed-width text, JSON, SQLite, HTTP, HTML, .xls, and .xlsx
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/visidata-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/visidata-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/visidata-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/visidata-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/visidata-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/visidata-feedstock)
 
 Current release info
 ====================
