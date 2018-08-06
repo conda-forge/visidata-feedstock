@@ -12,10 +12,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
+  noarch: python
   script: python -m pip install --no-deps --ignore-installed .
-  skip: True  # [py<34]
-  skip: True  # [win]
 
 requirements:
   build:
