@@ -1,6 +1,6 @@
 {% set name = "visidata" %}
-{% set version = "1.5.2" %}
-{% set sha256 = "c1dd17f558014fcedefaf55c1fbb9416c2391515f0718523db3ace47ac774d81" %}
+{% set version = "2.0" %}
+{% set sha256 = "328aeedb0b5a0e907a7d94030d55c3c0795e24ae1a44efa07d054eb15aa17d5b" %}
 
 package:
   name: {{ name|lower }}
@@ -18,11 +18,11 @@ build:
 
 requirements:
   build:
-    - python >=3.4
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python >=3.4
+    - python >=3.6
     - python-dateutil
     - requests
     - lxml
