@@ -1,6 +1,6 @@
 {% set name = "visidata" %}
-{% set version = "2.1" %}
-{% set sha256 = "4acd38e1311db45c9283d970c512415cb962112d68b253288d2018085cf4c697" %}
+{% set version = "2.1.1" %}
+{% set sha256 = "ddd6fa8db87a04966df7bfcf05d3d04a4346db170f08f51b7fcdaf9ca985c06a" %}
 
 package:
   name: {{ name|lower }}
