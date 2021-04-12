@@ -1,6 +1,6 @@
 {% set name = "visidata" %}
-{% set version = "2.3" %}
-{% set sha256 = "408cfbe0250aeb4c58b7e80719de0242fd34754c3a9c228c0ae6eccb5ba01231" %}
+{% set version = "2.4" %}
+{% set sha256 = "0d98ffced2fae043b76d684be2767a51c4fecd911cbe5e551b22e23ada232fbd" %}
 
 package:
   name: {{ name|lower }}
@@ -14,10 +14,10 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - setuptools
@@ -38,8 +38,8 @@ about:
   home: https://github.com/saulpw/visidata
   license: GPL-3.0
   license_family: GPL
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'A terminal interface for exploring and arranging tabular data.'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: A terminal interface for exploring and arranging tabular data.
 
   description: |
     VisiData is a multipurpose terminal utility for exploring, cleaning,
