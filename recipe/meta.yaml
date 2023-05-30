@@ -12,23 +12,24 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
     - python-dateutil
     - requests
     - lxml
     - openpyxl
     - xlrd
     - setuptools
+    - importlib_metadata >=3.6
 
 test:
   commands:
