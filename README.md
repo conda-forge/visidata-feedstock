@@ -1,11 +1,11 @@
-About visidata
-==============
+About visidata-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visidata-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/saulpw/visidata
 
 Package license: GPL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visidata-feedstock/blob/main/LICENSE.txt)
 
 Summary: A terminal interface for exploring and arranging tabular data.
 
