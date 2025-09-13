@@ -1,6 +1,6 @@
 {% set name = "visidata" %}
-{% set version = "3.1.1" %}
-{% set sha256 = "8c4484158f0851e4887e595542bd65bdd991de9c20652b442b3fd9742ce8b031" %}
+{% set version = "3.3" %}
+{% set sha256 = "a94f4e398477e038541849cf4df1d1f2efc399da544d77db189bdb7f2fc014c4" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
